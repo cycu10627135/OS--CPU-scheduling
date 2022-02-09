@@ -2,7 +2,7 @@
 寫一個程式可以自檔案輸入各個Process之編號、CPU Burst、Arrival Time、及Priority，並依這些資訊模擬FCFS、RR、Preemptive SJF、Non-Preemptive SJF、Priority等CPU Scheduling。本題必須繪出Gantt Chart，計算每個Process之Turnaround Time及Waiting Time。  
   
 1. FCFS (First Come First Serve)  
-    * 依arrival time先後次序處理。  
+   * 依arrival time先後次序處理。  
    * 若arrival time相同時, 則依ProcessID由小至大依序處理。
 2. RR (Round Robin)  
    * 先依arrival time先後次序處理,時候未到的Process不能Run。  
@@ -23,4 +23,5 @@
    * 依Priority由大致小依序處理。  
    * 若Priority相同,讓沒有用過CPU的先使用,無法分別時則依arrival time小的先處理。  
    * 若Priority及arrival time均相同,則依ProcessID由小至大依序處理。  
-6. ALL
+  
+計算Turn around time及Waiting time、並按照結果繪製Gantt char。  
